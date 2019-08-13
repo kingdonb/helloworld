@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 # install curl
 RUN apt-get update && apt-get install -qy curl
