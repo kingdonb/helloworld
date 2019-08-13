@@ -22,5 +22,5 @@ func main() {
 func hello(w http.ResponseWriter, req *http.Request) {
 	log.Printf("%s %s\n", req.Proto, req.URL)
 	fmt.Fprintln(w, "Welcome to ND OIT!")
-	fmt.Fprintln(w, "See the documentation at http://docs.teamhephy.com/ for more information.")
+	fmt.Fprintln(w, "See the changes at http://docs.teamhephy.com/ for more information.")
 }
